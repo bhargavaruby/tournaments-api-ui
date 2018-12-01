@@ -192,6 +192,9 @@
     "values": {
       "tournament": {
         "result_names": {
+          "set1" : "Set1",
+          "set2" : "Set2",
+          "set3" : "Set3"
           "points": "Points",
           "win": "Win"
         }

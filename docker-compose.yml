@@ -3,7 +3,7 @@ version: '3.3'
 services:
   web:
     image: node:latest
-    working_dir: /tournaments-api-ui
+    working_dir: /react_tournament
     command: bash -c "yarn install && yarn start"
     environment:
       PORT: 3001
@@ -12,7 +12,7 @@ services:
       - '3001:3001'
       - '3002:3002'
     volumes:
-      - .:/tournaments-api-ui
+      - .:/react_tournament
       - yarn-cache:/yarn_cache
 
 volumes:

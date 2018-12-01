@@ -1,5 +1,5 @@
 {
-  "name": "tournaments-api-ui",
+  "name": "react_tournament",
   "version": "0.1.0",
   "description": "Front-end for tournament management application.",
   "license": "MIT",
@@ -39,9 +39,7 @@
     "css-loader": "0.28.9",
     "dotenv": "5.0.0",
     "dotenv-expand": "4.2.0",
-    "eslint": "4.10.0",
     "eslint-config-react-app": "^2.1.0",
-    "eslint-loader": "1.9.0",
     "eslint-plugin-flowtype": "2.39.1",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "5.1.1",
@@ -88,6 +86,10 @@
     "whatwg-fetch": "2.0.3"
   },
   "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-vue": "^4.7.1",
     "husky": "^0.14.3",
     "lint-staged": "6.1.1",
     "prettier": "^1.10.2"
